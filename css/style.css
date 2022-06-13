@@ -7,16 +7,6 @@ font-style: normal; */
     margin: 0;
 }
 
-@font-face {
-    font-family: 'modern_no._20regular';
-    src: url('mod20-webfont.woff2') format('woff2'),
-        url('mod20-webfont.woff') format('woff'),
-        url('mod20-webfont.otf') format('otf'),
-        url('mod20-webfont.ttf') format('ttf'),
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 .scroll-left {
     height: 20px;
@@ -62,7 +52,7 @@ h5,
 h6,
 a {
 
-    font-family: 'Modern No. 20', sans-serif;
+    font-family: 'Playfair Display', serif;
 
 }
 
