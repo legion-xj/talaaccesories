@@ -10,7 +10,8 @@ font-style: normal; */
 @font-face {
     font-family: 'modern_no._20regular';
     src: url('mod20-webfont.woff2') format('woff2'),
-        url('mod20-webfont.woff') format('woff');
+        url('mod20-webfont.woff') format('woff'),
+        url('mod20-webfont.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 
@@ -77,9 +78,11 @@ p {
 
 /* Navigation */
 
+
 nav.r-nav {
     padding-top: 10px;
     margin-top: 20px;
+    
 }
 
 nav .navbar-brand {
@@ -87,6 +90,9 @@ nav .navbar-brand {
     color: #fff;
 }
 
+nav .navbar-brand:hover {
+    color: #C49C2E;
+}
 
 nav .navbar-nav li a {
     color: #fff !important;
@@ -130,11 +136,18 @@ nav.stickyadd .hamburger {
     color: #000;
 }
 
+@media only screen and (max-width: 990px){
+.navbar-nav{
+ background: rgba(196, 156, 46, 0.3); 
+}
+
+}
+
 
 /* Header */
 
 header {
-    background: url(../img/10.jpg) no-repeat center center;
+    background: url(../img/bg10.jpg) no-repeat center center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -446,7 +459,7 @@ display: block;
     padding-bottom: 100px;
 }
 
-@media only screen and (max-width:990px) {
+@media only screen and (max-width:850px) {
     .product-grid {
         margin-bottom: 30px
     }
@@ -472,7 +485,7 @@ label{
     font-weight: 300;
     font-style: normal;
     letter-spacing: 2px;
-    line-height: 5px;
+    line-height: 20px;
     padding-bottom: 30px;
 }
 
@@ -551,8 +564,10 @@ button {
     transition: ease .3s;
     color: #fff;
     letter-spacing: 1px;
-
 }
+
+
+
 
 button:hover {
     background: #fff;
