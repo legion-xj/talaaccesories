@@ -9,10 +9,10 @@ font-style: normal; */
 
 @font-face {
     font-family: 'modern_no._20regular';
-    src: url('fonts/mod20-webfont.woff2') format('woff2'),
-        url('fonts/mod20-webfont.woff') format('woff'),
-        url('fonts/mod20-webfont.otf') format('otf'),
-        url('fonts/mod20-webfont.ttf') format('ttf');
+    src: url('mod20-webfont.woff2') format('woff2'),
+        url('mod20-webfont.woff') format('woff'),
+        url('mod20-webfont.otf') format('otf'),
+        url('mod20-webfont.ttf') format('ttf'),
     font-weight: normal;
     font-style: normal;
 
@@ -62,9 +62,7 @@ h5,
 h6,
 a {
 
-    /*font-family: 'Modern No. 20', sans-serif;*/
-    font-family: 'modern_no._20regular';
-
+    font-family: 'Modern No. 20', sans-serif;
 
 }
 
