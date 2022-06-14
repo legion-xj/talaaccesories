@@ -594,6 +594,10 @@ margin-right: auto;
 
 
 } 
+
+.videos p{
+text-align: center;
+}
 #contact .form{
     margin-right: 0;
 }
@@ -612,10 +616,10 @@ margin-right: auto;
 }
 
 .videos p{
-max-width: 25em;
+max-width: 23em;
 letter-spacing: 0.5px;
 color: #C49C2E;
-padding-left: 4vw;
+padding-left: 20px
 }
 
 }
