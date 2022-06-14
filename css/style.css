@@ -217,6 +217,10 @@ display: block;
 .col-lg-6 .pl-5 .logo_about{
     padding-left: 0!important;
 }
+footer img{
+    max-width: 20%;
+    height: auto;
+}
 }
 
 .logo_about p{
@@ -490,6 +494,7 @@ form {
     width: 300px;
     background: #C49C2E;
     font-family: acumin-pro-extra-condensed, sans-serif;
+    padding-bottom: 15px;
 
 }
 
@@ -554,6 +559,7 @@ button {
     transition: ease .3s;
     color: #fff;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 
 
@@ -648,6 +654,7 @@ padding-left: 4vw;
     letter-spacing: 2px;
     line-height: 5px;
     padding-bottom: 20px;
+    line-height: 20px;
     color: #C49C2E;
     text-align: right;
 }
@@ -705,7 +712,7 @@ footer li a:hover {
 
 footer img{
     max-width: 16%;
-    min-height: auto;
+    height: auto;
     margin-left: 20px;
     padding-bottom: 60px;
 }
