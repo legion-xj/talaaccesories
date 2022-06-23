@@ -2190,7 +2190,7 @@ html {
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important;
+  padding-left: 0;
 }
 
 .m-n1 {
